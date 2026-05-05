@@ -3,88 +3,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Family Salon | Premium Hair & Beauty Services</title>
-    <meta name="description" content="Experience world-class hair styling, skincare, and grooming at Modern Family Salon. Your destination for premium beauty.">
+    <title>Modern Family Salon | Style That Defines You — Navsari</title>
+    <meta name="description" content="Modern Family Salon in Navsari, Gujarat — premium hair styling, bridal makeup, facials and grooming with 10+ years of experience. Book on WhatsApp.">
+    <meta name="keywords" content="salon Navsari, hair cut, bridal makeup, facial, beard grooming, Modern Family Salon, Gujarat salon">
+    <meta property="og:title" content="Modern Family Salon — Style That Defines You">
+    <meta property="og:description" content="Premium hair, beauty and grooming services in Navsari. Book instantly on WhatsApp.">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- ============ NAVBAR ============ -->
     <nav id="navbar">
-        <div class="container">
-            <div class="logo">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
                 <span class="logo-text">MODERN</span>
                 <span class="logo-subtext">Family Salon</span>
-            </div>
-            <ul class="nav-links">
+            </a>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact" class="btn-primary">Book Now</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener" class="btn-primary">Book Now</a></li>
             </ul>
-            <div class="mobile-menu-btn" id="mobile-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <button class="mobile-menu-btn" id="mobile-btn" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
+    <!-- ============ HERO ============ -->
     <section id="home" class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1 class="fade-in">Redefining Your <br><span class="accent">Natural Beauty</span></h1>
-            <p class="fade-in delay-1">Premium hair styling, advanced skincare, and luxury grooming services tailored for the modern family.</p>
-            <div class="hero-btns fade-in delay-2">
-                <a href="#services" class="btn-primary">View Services</a>
-                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            <span class="eyebrow fade-in">Navsari, Gujarat · Since 10+ Years</span>
+            <h1 class="fade-in delay-1">Style That <br><span class="accent">Defines You</span></h1>
+            <p class="fade-in delay-2">Premium hair styling, bridal makeup, advanced skincare and luxury grooming — designed for the modern family.</p>
+            <div class="hero-btns fade-in delay-3">
+                <a href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener" class="btn-primary">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.93 11.93 0 0 0 12.06 0C5.5 0 .17 5.32.17 11.88c0 2.09.55 4.13 1.6 5.93L0 24l6.34-1.66a11.86 11.86 0 0 0 5.72 1.46h.01c6.55 0 11.88-5.32 11.88-11.88 0-3.17-1.24-6.16-3.43-8.44ZM12.07 21.8h-.01a9.9 9.9 0 0 1-5.05-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.86 9.86 0 0 1-1.51-5.27c0-5.46 4.45-9.9 9.92-9.9 2.65 0 5.14 1.04 7.01 2.91a9.84 9.84 0 0 1 2.9 7c0 5.46-4.44 9.9-9.9 9.9Zm5.43-7.41c-.3-.15-1.76-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35Z"/></svg>
+                    Book on WhatsApp
+                </a>
+                <a href="tel:+919876543210" class="btn-secondary">📞 Call Now</a>
             </div>
         </div>
     </section>
 
+    <!-- ============ SERVICES ============ -->
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
+                <span class="eyebrow">What we do</span>
                 <h2 class="reveal">Our Signature Services</h2>
                 <div class="underline"></div>
+                <p class="section-sub reveal">Honest pricing. Hygienic environment. Trendy styling by professional staff.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card reveal">
                     <div class="icon">✂️</div>
-                    <h3>Hair Styling</h3>
-                    <p>Expert cuts, coloring, and styling to match your unique personality.</p>
+                    <h3>Hair Cut</h3>
+                    <p>Modern cuts tailored to your face shape and personality.</p>
+                    <div class="price">₹200</div>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20Hair%20Cut" target="_blank" rel="noopener" class="card-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon">🎨</div>
+                    <h3>Hair Color</h3>
+                    <p>Premium global, highlights and balayage with quality products.</p>
+                    <div class="price">₹1,500</div>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20Hair%20Color" target="_blank" rel="noopener" class="card-link">Book Now →</a>
                 </div>
                 <div class="service-card reveal">
                     <div class="icon">✨</div>
-                    <h3>Skincare</h3>
-                    <p>Rejuvenating facials and treatments for a glowing, healthy complexion.</p>
+                    <h3>Facial</h3>
+                    <p>Deep-cleansing, glow-boosting facials for healthy radiant skin.</p>
+                    <div class="price">₹800</div>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20Facial" target="_blank" rel="noopener" class="card-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal featured">
+                    <div class="badge">Popular</div>
+                    <div class="icon">👰</div>
+                    <h3>Bridal Makeup</h3>
+                    <p>Complete bridal package — makeup, hair, draping. Look unforgettable.</p>
+                    <div class="price">₹8,000</div>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20Bridal%20Makeup" target="_blank" rel="noopener" class="card-link">Book Now →</a>
                 </div>
                 <div class="service-card reveal">
-                    <div class="icon">🤵</div>
-                    <h3>Men's Grooming</h3>
-                    <p>Precision beard trims, fades, and classic barber services.</p>
+                    <div class="icon">🧔</div>
+                    <h3>Beard Grooming</h3>
+                    <p>Precision beard trim, shape and shave with a hot-towel finish.</p>
+                    <div class="price">₹150</div>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20Beard%20Grooming" target="_blank" rel="noopener" class="card-link">Book Now →</a>
                 </div>
                 <div class="service-card reveal">
                     <div class="icon">💅</div>
                     <h3>Nail Art</h3>
-                    <p>Elegant manicures and pedicures with artistic flair.</p>
+                    <p>Elegant manicures, pedicures and creative nail art.</p>
+                    <div class="price">₹500</div>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20Nail%20Art" target="_blank" rel="noopener" class="card-link">Book Now →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready for a transformation?</h2>
-                <p>Join over 5,000 happy clients who trust us with their look.</p>
-                <a href="#contact" class="btn-white">Book Appointment</a>
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-img reveal">
+                <img src="hero-salon.png" alt="Inside Modern Family Salon" loading="lazy">
+                <div class="exp-badge">
+                    <strong>10+</strong>
+                    <span>Years of Excellence</span>
+                </div>
+            </div>
+            <div class="about-text reveal">
+                <span class="eyebrow">About Us</span>
+                <h2>A trusted name in Navsari for the whole family.</h2>
+                <p>Modern Family Salon has 10+ years of experience in hair styling and beauty services. We are known for our professional staff, hygienic environment, and trendy styling that brings out the best in you.</p>
+                <ul class="about-list">
+                    <li>✓ Owner: <strong>Raj Patel</strong></li>
+                    <li>✓ Hygienic, sanitised tools for every guest</li>
+                    <li>✓ Trained stylists &amp; certified makeup artists</li>
+                    <li>✓ Premium, branded products only</li>
+                </ul>
+                <a href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener" class="btn-primary">Chat on WhatsApp</a>
             </div>
         </div>
     </section>
 
-    <footer id="contact">
+    <!-- ============ OFFERS ============ -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Limited time</span>
+                <h2 class="reveal">Special Offers</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card reveal">
+                    <div class="offer-tag">20% OFF</div>
+                    <h3>First Visit Discount</h3>
+                    <p>New here? Enjoy a flat 20% off on your very first service with us.</p>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20claim%20the%2020%25%20first%20visit%20offer" target="_blank" rel="noopener" class="card-link">Claim Offer →</a>
+                </div>
+                <div class="offer-card reveal highlight">
+                    <div class="offer-tag">BRIDAL</div>
+                    <h3>Bridal Package Discount</h3>
+                    <p>Special discounts on our complete bridal package — makeup, hair &amp; more.</p>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20bridal%20package%20details" target="_blank" rel="noopener" class="card-link">Get Details →</a>
+                </div>
+                <div class="offer-card reveal">
+                    <div class="offer-tag">COMBO</div>
+                    <h3>Hair + Beard Combo</h3>
+                    <p>Hair cut and beard grooming at a special combined price for him.</p>
+                    <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20the%20Hair%20%2B%20Beard%20combo" target="_blank" rel="noopener" class="card-link">Book Combo →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Our work</span>
+                <h2 class="reveal">Gallery</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80" alt="Hair styling" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" alt="Salon interior" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=80" alt="Bridal makeup" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1599387737332-a9d6e3aa1bc9?w=600&q=80" alt="Beard grooming" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&q=80" alt="Facial treatment" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=600&q=80" alt="Nail art" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80" alt="Hair color" loading="lazy"></div>
+                <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&q=80" alt="Salon products" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">What clients say</span>
+                <h2 class="reveal">Happy Clients</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>"Amazing service and friendly staff! The bridal makeup made my day truly special."</p>
+                    <div class="reviewer">
+                        <div class="avatar">P</div>
+                        <div>
+                            <strong>Priya S.</strong>
+                            <span>Bridal Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best salon in Navsari, highly recommended. My go-to place for haircuts and grooming."</p>
+                    <div class="reviewer">
+                        <div class="avatar">A</div>
+                        <div>
+                            <strong>Amit P.</strong>
+                            <span>Regular Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>"Affordable and professional work. The staff really listens to what you want."</p>
+                    <div class="reviewer">
+                        <div class="avatar">N</div>
+                        <div>
+                            <strong>Neha M.</strong>
+                            <span>Hair Color Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ BOOKING FORM ============ -->
+    <section id="booking" class="booking">
+        <div class="container booking-grid">
+            <div class="booking-info reveal">
+                <span class="eyebrow">Reserve your slot</span>
+                <h2>Book Your Appointment</h2>
+                <p>Fill in your details and our team will reach out to confirm. Prefer instant booking? Tap the WhatsApp button.</p>
+                <ul class="info-list">
+                    <li>🕒 Open: 9:00 AM – 9:00 PM</li>
+                    <li>📅 Weekly Off: Monday</li>
+                    <li>📍 Gandevi Road, Navsari (Near City Mall)</li>
+                </ul>
+            </div>
+            <form class="booking-form reveal" id="booking-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-row">
+                    <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9+\s]{7,15}" required>
+                </div>
+                <div class="form-row">
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option>Hair Cut – ₹200</option>
+                        <option>Hair Color – ₹1,500</option>
+                        <option>Facial – ₹800</option>
+                        <option>Bridal Makeup – ₹8,000</option>
+                        <option>Beard Grooming – ₹150</option>
+                        <option>Nail Art – ₹500</option>
+                    </select>
+                </div>
+                <div class="form-row two-col">
+                    <input type="date" name="date" required>
+                    <input type="time" name="time" required>
+                </div>
+                <button type="submit" class="btn-primary btn-block">Confirm Booking</button>
+                <a href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener" class="btn-whatsapp btn-block">Or Book on WhatsApp</a>
+            </form>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Visit us</span>
+                <h2 class="reveal">Get in Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <span class="ci-icon">📍</span>
+                        <h4>Address</h4>
+                        <p>Gandevi Road, Navsari,<br>Gujarat, India<br><small>Near City Mall</small></p>
+                    </div>
+                    <div class="contact-card">
+                        <span class="ci-icon">📞</span>
+                        <h4>Phone</h4>
+                        <p>
+                            <a href="tel:+919876543210">+91 98765 43210</a><br>
+                            <a href="tel:+919123456780">+91 91234 56780</a>
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <span class="ci-icon">🕒</span>
+                        <h4>Hours</h4>
+                        <p>Tue – Sun: 9:00 AM – 9:00 PM<br><small>Closed on Mondays</small></p>
+                    </div>
+                    <div class="socials">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+                        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="contact-map reveal">
+                    <iframe
+                        src="https://www.google.com/maps?q=Gandevi+Road+Navsari+Gujarat&output=embed"
+                        width="100%" height="100%" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Modern Family Salon Location"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-info">
@@ -92,7 +329,7 @@
                         <span class="logo-text">MODERN</span>
                         <span class="logo-subtext">Family Salon</span>
                     </div>
-                    <p>Your sanctuary for premium beauty and grooming services.</p>
+                    <p>Your sanctuary for premium beauty and grooming services in Navsari, Gujarat.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Quick Links</h4>
@@ -100,21 +337,32 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#about">About Us</a></li>
-                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#booking">Book Now</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <p>📍 123 Elegance Street, City Center</p>
-                    <p>📞 +1 234 567 890</p>
-                    <p>📧 info@modernsalon.com</p>
+                    <h4>Contact</h4>
+                    <p>📍 Gandevi Road, Navsari, Gujarat</p>
+                    <p>📞 <a href="tel:+919876543210">+91 98765 43210</a></p>
+                    <p>🕒 9:00 AM – 9:00 PM (Closed Mondays)</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Modern Family Salon. All rights reserved.</p>
+                <p>&copy; 2026 Modern Family Salon. Crafted with care for our clients.</p>
             </div>
         </div>
     </footer>
+
+    <!-- ============ FLOATING WHATSAPP ============ -->
+    <a href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20book%20an%20appointment"
+       target="_blank" rel="noopener"
+       class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor" aria-hidden="true">
+            <path d="M20.52 3.48A11.93 11.93 0 0 0 12.06 0C5.5 0 .17 5.32.17 11.88c0 2.09.55 4.13 1.6 5.93L0 24l6.34-1.66a11.86 11.86 0 0 0 5.72 1.46h.01c6.55 0 11.88-5.32 11.88-11.88 0-3.17-1.24-6.16-3.43-8.44ZM12.07 21.8h-.01a9.9 9.9 0 0 1-5.05-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.86 9.86 0 0 1-1.51-5.27c0-5.46 4.45-9.9 9.92-9.9 2.65 0 5.14 1.04 7.01 2.91a9.84 9.84 0 0 1 2.9 7c0 5.46-4.44 9.9-9.9 9.9Zm5.43-7.41c-.3-.15-1.76-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35Z"/>
+        </svg>
+        <span class="wa-pulse"></span>
+    </a>
 
     <script src="script.js"></script>
 </body>
